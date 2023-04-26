@@ -3,9 +3,9 @@ const fibonacci = function (num) {
     return "OOPS";
   }
   if (typeof num === "string") {
-    Number(num);
+    num = Number(num);
   }
-  if (num === "1") {
+  if (num === 1) {
     return 1;
   }
 
